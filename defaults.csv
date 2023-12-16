@@ -1,4 +1,4 @@
-Key,Value,Comment
+key,value,comment
 IMAGETYP,LIGHT,Exposure type
 EXPOSURE,100,Exposure time in seconds
 DATE-LOC,2023-01-01,Observation date
