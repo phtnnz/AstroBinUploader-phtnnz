@@ -1,0 +1,17 @@
+set,filter,code
+Astronomik,Ha,4663
+Astronomik,SII,4844
+Astronomik,OIII,4752
+Astronomik,R,4649
+Astronomik,G,4643
+Astronomik,B,4637
+Astronomik,L,2906
+Astronomik,CLS,4061
+
+Chroma,L,
+Chroma,R,
+Chroma,G,
+Chroma,B,
+Chroma,Ha,
+Chroma,OIII,
+Chroma,SII,
