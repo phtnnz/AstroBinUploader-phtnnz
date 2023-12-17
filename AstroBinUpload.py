@@ -1006,13 +1006,21 @@ def main():
         print("Error: Please provide at least one directory path.")
         sys.exit(1)
 
-    directory_paths = sys.argv[1:]
+    # quick hack: Windows PowerShell adds a stray " to the end of dirname if it ends with a backslash \ AND contains a space!!!
+    # see here https://bugs.python.org/issue39845
+
+    directory_paths0 = sys.argv[1:]
+    directory_paths = []
     # Validate directory paths
-    for directory in directory_paths:
+    for directory in directory_paths0:
+        # quick hack: Windows PowerShell adds a stray " to the end of dirname if it ends with a backslash \ AND contains a space!!!
+        # see here https://bugs.python.org/issue39845
+        directory = directory.rstrip("\"")
         if not os.path.isdir(directory):
             print(f"Error: The directory '{directory}' does not exist.")
             sys.exit(1)
         print(f"Processing directory: {directory}")
+        directory_paths.append(directory)
 
     # Step 3: Extract FITS headers
     print('\nReading FITS headers...\n')
