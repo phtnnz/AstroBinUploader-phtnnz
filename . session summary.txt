@@ -1,0 +1,12 @@
+
+Observation session Summary:
+
+LIGHTS:
+
+  Filter B:	 26 frames, Exposure time: 52.0 mins 0 secs
+  Filter G:	 30 frames, Exposure time: 1.0 hrs 0 secs
+  Filter Ha:	 18 frames, Exposure time: 1.0 hrs 30.0 mins 0 secs
+  Filter L:	 89 frames, Exposure time: 2.0 hrs 58.0 mins 0 secs
+  Filter R:	 30 frames, Exposure time: 1.0 hrs 0 secs
+
+Total session exposure for LIGHTs:	 7.0 hrs 20.0 mins 0 secs
