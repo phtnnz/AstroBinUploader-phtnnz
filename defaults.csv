@@ -1,17 +1,17 @@
 key,value,comment
 IMAGETYP,LIGHT,Exposure type
-EXPOSURE,100,Exposure time in seconds
+EXPOSURE,120,Exposure time in seconds
 DATE-LOC,2023-01-01,Observation date
 XBINNING,1,Camera binning
-GAIN,0,Camera gain
-XPIXSZ,1,Camera pixel size in um
+GAIN,56,Camera gain
+XPIXSZ,3.76,Camera pixel size in um
 CCD-TEMP,-10,Camera sensor temperature in degrees C
-FOCALLEN,540,Telescope focal length in mm
-FOCRATIO,5.4,Telescope focal ratio
-SITELAT,52.25,Observation site latitude in decimal degrees
-SITELONG,-0.12,Observation site longitude in decimal degrees
+FOCALLEN,1149,Telescope focal length in mm
+FOCRATIO,4.5,Telescope focal ratio
+SITELAT,-23.233,Observation site latitude in decimal degrees (Hakos NA)
+SITELONG,16.350,Observation site longitude in decimal degrees (Hakos NA)
 FILTER,No Filter,Filter name
 OBJECT,No target,Target name
 FOCTEMP,20,Ambient temperature in degrees C as measure by the focuser
 SWCREATE,Unknown package,Creation package
-HFR,1.6,Half-flux radius in pixels
+HFR,3.2,Half-flux radius in pixels
